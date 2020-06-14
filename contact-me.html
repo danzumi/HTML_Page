@@ -7,23 +7,20 @@
 </head>
 
 <body>
-  <form method="post">
+  <form method="post" action="thank-you.html">
     <fieldset>
       <br>
       <legend>Contact Me Form</legend>
-      <label> Name </label>
-      <input type="text" name="customer_name">
+      <label>Name<input type="text" name="customer_name"></label>
       <br>
-      <label> Email </label>
-      <input type="email" name="email_address">
+      <label>Email<input type="email" name="email_address"></label>
       <br>
-      <label> Phone </label>
-      <input type="tel" name="phone_number">
+      <label>Phone<input type="tel" name="phone_number"></label>
       <br><br>
       <textarea name="message_content" rows="8" cols="40"></textarea>
       <br> Prefered method of contact:
-      <input type="radio" name="contact_preference" value="email"> Email
-      <input type="radio" name="contact_preference" value="phone"> Phone
+      <label><input type="radio" name="contact_preference" value="email"> Email</label>
+      <label><input type="radio" name="contact_preference" value="phone"> Phone</label>
       <br><br>
       <input type="submit" name="Send">
     </fieldset>
